@@ -1,0 +1,468 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+body {
+		overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+
+
+	 width: 8px;
+  height: 8px;
+  background-color: #aaa;
+}
+body::-webkit-scrollbar-thumb {
+    background:#000; 
+    cursor: grabbing;
+    border-radius: 8px;
+}
+.btn-outline-danger:hover {
+	background-color:#F92672; 
+}
+/* Header */
+
+.item {
+	width: 100%;
+}
+.header-top {
+	padding-top:2%;
+}
+/*end of header */
+
+
+/* product */
+
+/*global for Tshirt - Raglan */
+
+.subtitle {
+	font-size: 40px;
+
+}
+.productRow {
+	margin:10%;
+	display: flex;
+}
+.desc {
+	font-size:15px;
+}
+.clear {
+	clear:both;
+}
+.imageRow {
+	order:1;
+}
+.imageRow img {
+	margin:0 auto;
+}
+.Raglan {
+	order:2;
+}
+.imgProduct {
+	width: 40%;
+	height: 40%;
+	bottom:10px;
+	position: relative;
+	animation: 2s ease-in 2s infinite float;
+}
+.raglanAnim {
+	animation: 2s ease-in 1s infinite floatRaglan;
+}
+
+.order-now {
+	text-align: center;
+
+}
+.button-order-now {
+	cursor:pointer;
+	
+}
+
+
+@keyframes floatRaglan {
+	15% {bottom:10px;}
+	30% {bottom:20px;}
+	45%{bottom:25px;}
+	65%{bottom:30px;}
+	80% {bottom:20px;}
+	100% {bottom:10px;}
+}
+@keyframes float {
+	10% {bottom:10px;}
+	30% {bottom:20px;}
+	50%{bottom:25px;}
+	65%{bottom:30px;}
+	80% {bottom:20px;}
+	100% {bottom:10px;}
+}
+.colorBarText {
+	font-size: 15px;
+	color:red;
+	font-weight: bold;
+}
+.shadow {
+	width: 40%;
+	height: 40%;
+}
+
+/*T-shirt dan raglan  */
+.T-Shirt {
+	text-align:right;
+
+}
+.Tshirt-ColorBar{
+	float:right;
+}
+
+
+/*end of tshirt dan raglan */
+
+/*Raglan */
+
+/*end of raglan */
+
+/* color chooser */
+
+
+
+	
+
+.box:hover {
+	transform: scale(1.1);
+}
+
+
+
+.grey {
+  width: 30px;
+  height: 30px;
+  cursor:pointer;
+  float:left;
+  background-color: #DCDCDD;
+}
+
+.blue {
+  width: 30px;
+  height: 30px;
+  cursor:pointer;
+    float:left;
+  background-color: blue;
+}
+
+.yellow {
+  width: 30px;
+   float:left;
+  height: 30px;
+  cursor:pointer;
+  background-color: yellow;
+}
+.black {
+  width: 30px;
+  height: 30px;
+  float:left;
+  cursor:pointer;
+  background-color: #000;
+}
+.magenta {
+  width: 30px;
+  height: 30px;
+  float:left;
+  cursor:pointer;
+  background-color: #F4B3B3;
+}
+.red {
+  width: 30px;
+  float:left;
+  height: 30px;
+  cursor:pointer;
+  background-color: red;
+}
+
+
+/*end of color chooser */
+/* end product */
+
+
+/* pricing */
+
+.T-Shirt-standart{
+   width: 80%;
+}
+.designStandart {
+	padding:20px;
+	text-align: center;
+}
+.border {
+	padding:30px;
+}
+
+.priceText {
+	font-size:30px;
+	font-weight: bold;
+}
+/* end of pricing */
+
+/* navigation*/
+
+.email-verfied {
+	background-color: #C82222;
+	color:#fff;
+}
+.bg-light {
+	background-color: #ffffff;
+}
+
+ .nav-link {
+    color:#000;
+    font-weight: bold;
+  }
+  .nav-link:hover {
+    color:#F92672;
+ }
+.navbar-brand img {
+	width: 150px;
+}
+.subtitle-logo {
+	color: black;
+	position: relative;
+	top:-10px;
+	font-size: 12px;
+}
+
+.navbar-left {
+	float:right;
+}
+
+
+.navbar {
+	z-index:99;
+	background-color: #fff;
+	padding:10px;
+	-webkit-box-shadow:2px 2px 2px #BABAB7;
+	box-shadow:2px 2px 2px #BABAB7;
+}
+
+/* end of navigation*/
+
+/* login */
+
+
+/*style icon */
+.facebook {
+	font-size: 90px;
+	color:#587AC2;
+	cursor:pointer;
+	margin-left:10px;
+
+}
+.google {
+	font-size: 90px;
+	color:#C82222;
+	cursor:pointer;
+	margin-left:10px;
+}
+
+/*end of style icon */
+
+.login-with-container {
+	text-align: center;
+}
+.login-with {
+	font-weight: bold;
+
+}
+.logo-login {
+	padding:10%;
+	width: 100%;
+	margin:2% auto 4% auto;
+}
+.container-login {
+	padding:1%;
+	
+}
+
+.border-login {
+	margin-top:20%;
+	padding:5%;
+	border:2px dashed #aaa;
+}
+.loginSignUpText {
+	font-weight: bold;
+
+}
+.loginSignUpText {
+	font-weight: bold;
+	color:#F92672;
+	
+}
+/*end of login */
+
+
+/*404 page */
+.container404 {
+	text-align: center ;
+}
+
+.page404 {
+	margin-top:15%
+}
+
+/*end of page 404*/
+
+
+/*order */
+
+.order-help {
+	position: fixed;
+	padding: 2%;
+}
+.order-help h5 {
+	font-size: 15px;
+
+}
+.order-help p {
+	font-size: 15px;
+}
+/* end of bagian order */
+
+/* bagian event */
+
+.logo-event {
+	width: 300px;
+}
+
+/* end of event*/
+
+/* bagian event */
+
+.logo-campaign {
+	width: 300px;
+}
+
+/* end of event*/
+
+
+
+
+/*admin section */
+.admin-logout {
+	margin-left: 20px;
+}
+
+.flex-container {
+	display: flex;
+	flex-wrap : wrap;
+	justify-content: flex-start;
+}
+.card {
+	margin:20px;
+	width: 300px;
+}
+
+/*end of admin */
+
+
+/* responsive section */
+@media (min-width: 200px ) and (max-width: 575.99px) { 
+	.header-top {
+	padding-top:10%;
+	}
+	.imgProduct {
+		width: 150px;
+	}
+	.shadow {
+	width: 140px;
+	height: 30px;
+		}
+	.logo-login {
+	margin:0 auto 4% auto;
+	}
+	.imageRow {
+  	order:2;
+  	padding-top:20%;
+  	}
+
+  	.Raglan {
+  	order:1;
+    }
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.99px) { 
+
+	.header-top {
+	padding-top:10%;
+	}
+	.imgProduct {
+		width: 150px;
+	}
+	.shadow {
+	width: 140px;
+	height: 30px;
+		}
+	.logo-login {
+	margin:0 auto 4% auto;
+	}
+	.imageRow {
+  	order:2;
+  	padding-top:20%;
+  	}
+
+  	.Raglan {
+  	order:1;
+    }
+
+
+
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.99px) { }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.99px) { }
+
+/* expand image sextion  */
+
+
+.backdrop {
+	background-color: rgba(0, 0,0,0.5);
+	position:fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right: 0;
+	z-index:999;
+}
+.img-modal {
+	padding:2%;
+}
+.modal-desc {
+	padding:5%;
+	background-color: #fff;
+	height: 900px;
+}
+
+
+
+.close-modal {
+	color:#000;
+	cursor:pointer;
+	font-size: 25px;
+	position:absolute;
+	right: 5%;
+	top: 20px;
+}
+
+.additional-tools {
+	padding:1%;
+	background-color:  rgb(245, 238, 238);
+}
+.tools {
+	padding:1%;
+	background-color: rgb(245, 238, 238);
+}
+.canvas-container{
+	margin:0;
+}
